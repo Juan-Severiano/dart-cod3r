@@ -1,7 +1,7 @@
 main() {
-  int age = 16;
+  double weight = 73;
   double height = 1.8;
-  double imc = (age * height) * height;
+  double imc = weight /  (height * height);
 
   print(imc);
 }
